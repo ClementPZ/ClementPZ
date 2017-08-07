@@ -1,0 +1,27 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.card {
+  margin: 20px;
+  background-color: white;
+  color: white;
+  padding: 15px;
+  border: 1px solid rgba(50, 50, 50, 0.2);
+  box-shadow: 5px 5px 12px rgba(50, 50, 50, 0.5)
+}
+.pic {
+  height: 300px;
+}
+.card-footer {
+  height: 20px;
+  color: black;
+  text-align: center;
+  font-size: 10px;
+}
+.description {
+  align-items: center;
+}

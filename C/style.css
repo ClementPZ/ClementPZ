@@ -1,0 +1,18 @@
+@import url("components/card.css");
+
+
+h1 {
+  color: rgba(250, 250, 250, 0.75);
+  font-family: avenir;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+
+
+cd ~/Desktop/C
+middleman init middleman-C -B -T lewagon/miidleman-template
+cd middleman-C

@@ -1,0 +1,286 @@
+
+<h1 class="titre">¡ Hello you !</h1>
+
+<div class="container text-center">
+  <div class="row">
+    <div class="cards">
+      <% data.photos.each do |photo| %>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="card" >
+            <div class="card-main">
+              <img src="<% photo.url %> class="pic">
+            </div>
+            <div class="card-footer">
+              <h2 class="description"</h2>
+            </div>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+
+
+      <!--
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-main">
+            <img src="images/1.jpg" class="pic">
+          </div>
+          <div class="card-footer">
+            <h2 class="description">Photo 1 : contre-jour sur</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-main">
+            <img src="images/2.jpg" class="pic">
+          </div>
+          <div class="card-footer">
+              <h2 class="description">Photo 2 : contre-jour sur</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-main">
+            <img src="images/3.jpg" class="pic">
+          </div>
+          <div class="card-footer">
+            <h2 class="description">Photo 3 : contre-jour sur</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+        <div class="card-main">
+          <img src="images/4.jpg" class="pic">
+        </div>
+        <div class="card-footer">
+          <h2 class="description">Photo : contre-jour sur</h2>
+        </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-main">
+            <img src="images/5.jpg" class="pic">
+          </div>
+          <div class="card-footer">
+              <h2 class="description">Photo : contre-jour sur</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-main">
+            <img src="images/6.jpg" class="pic">
+          </div>
+          <div class="card-footer">
+            <h2 class="description">Photo : contre-jour sur</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-main">
+            <img src="images/9.jpg" class="pic">
+          </div>
+          <div class="card-footer">
+            <h2 class="description">Photo : contre-jour sur</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-main">
+            <img src="images/10.jpg" class="pic">
+          </div>
+          <div class="card-footer">
+            <h2 class="description">Photo 1 : contre-jour sur</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-main">
+            <img src="images/7.jpg" class="pic">
+          </div>
+          <div class="card-footer">
+            <h2 class="description">Photo 1 : contre-jour sur</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-main">
+            <img src="images/2.jpg" class="pic">
+          </div>
+          <div class="card-footer">
+              <h2 class="description">Photo 2 : contre-jour sur</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-main">
+            <img src="images/3.jpg" class="pic">
+          </div>
+          <div class="card-footer">
+            <h2 class="description">Photo 3 : contre-jour sur</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-main">
+            <img src="images/8.jpg" class="pic">
+          </div>
+          <div class="card-footer">
+            <h2 class="description">Photo 1 : contre-jour sur</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-main">
+            <img src="images/4.jpg" class="pic">
+          </div>
+          <div class="card-footer">
+              <h2 class="description">Photo 2 : contre-jour sur</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-main">
+            <img src="images/10.jpg" class="pic">
+          </div>
+          <div class="card-footer">
+            <h2 class="description">Photo 3 : contre-jour sur</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-main">
+            <img src="images/3.jpg" class="pic">
+          </div>
+          <div class="card-footer">
+              <h2 class="description">Photo 2 : contre-jour sur</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-main">
+            <img src="images/10.jpg" class="pic">
+          </div>
+          <div class="card-footer">
+            <h2 class="description">Photo 3 : contre-jour sur</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-main">
+            <img src="images/11.jpg" class="pic">
+          </div>
+          <div class="card-footer">
+              <h2 class="description">Photo 2 : contre-jour sur</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-main">
+            <img src="images/4.jpg" class="pic">
+          </div>
+          <div class="card-footer">
+            <h2 class="description">Photo 3 : contre-jour sur</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-main">
+            <img src="images/7.jpg" class="pic">
+          </div>
+          <div class="card-footer">
+              <h2 class="description">Photo 2 : contre-jour sur</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-main">
+            <img src="images/8.jpg" class="pic">
+          </div>
+          <div class="card-footer">
+              <h2 class="description">Photo 2 : contre-jour sur</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-main">
+            <img src="images/1.jpg" class="pic">
+          </div>
+          <div class="card-footer">
+            <h2 class="description">Photo 3 : contre-jour sur</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-main">
+            <img src="images/5.jpg" class="pic">
+          </div>
+          <div class="card-footer">
+              <h2 class="description">Photo 2 : contre-jour sur</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-main">
+            <img src="images/3.jpg" class="pic">
+          </div>
+          <div class="card-footer">
+            <h2 class="description">Photo 3 : contre-jour sur</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-main">
+            <img src="images/11.jpg" class="pic">
+          </div>
+          <div class="card-footer">
+            <h2 class="description">Photo  : contre-jour sur</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-main">
+            <img src="images/1.jpg" class="pic">
+          </div>
+          <div class="card-footer">
+            <h2 class="description">Photo : contre-jour sur</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-main">
+            <img src="images/horiz1.jpg" class="pic">
+          </div>
+          <div class="card-footer">
+            <h2 class="description">Photo : contre-jour sur</h2>
+          </div>
+        </div>
+      </div> -->
+
